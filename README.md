@@ -7,19 +7,19 @@ The application models a company that is responsible for producing movies as wel
 
 ### Endpoints
 
-
 * MOVIES
     <details>
     <summary>GET</summary>
-     
-        * Request - /movies
-        * Response
-            * Success
-                * Code - 200
-                * Content - {"success": True, "movies": movies}
-            * Error
-                * Code- 422
-                * Content - {"success": False, "error": 422, "message": "unprocessable"}    
+    
+    * Request URL - /movies
+    * Response
+        * Success
+            * Code - 200
+            * Content - {"success": True, "movies": movies}
+        * Error
+            * Code- 422
+            * Content - {"success": False, "error": 422, "message": "unprocessable"}
+
     </details>
 
 ### Errors
