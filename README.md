@@ -10,15 +10,28 @@ The application models a company that is responsible for producing movies as wel
 * MOVIES
     <details>
     <summary>GET</summary>
-    
+
     * Request URL - /movies
     * Response
         * Success
             * Code - 200
-            * Content - {"success": True, "movies": movies}
+            * Content -
+            ```javascript
+                {
+                    "success": True,
+                    "movies": movies
+                }
+            ```
         * Error
             * Code- 422
-            * Content - {"success": False, "error": 422, "message": "unprocessable"}
+            * Content -
+            ```yaml
+             {
+                 "success": False,
+                 "error": 422,
+                 "message": "unprocessable"
+             }
+             ```
 
     </details>
 
